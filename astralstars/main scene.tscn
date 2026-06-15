@@ -1,6 +1,9 @@
-[gd_scene load_steps=2 format=3 uid="uid://bl2i5s1tjyyrj"]
+[gd_scene load_steps=3 format=3 uid="uid://bl2i5s1tjyyrj"]
 
 [ext_resource type="Texture2D" uid="uid://d2oke6du24u05" path="res://Assets/Background 1 .png" id="1_1uyat"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ksk8o"]
+bg_color = Color(0.0962047, 0.0962048, 0.0962047, 0.831373)
 
 [node name="CanvasLayer" type="CanvasLayer"]
 layer = -1
@@ -18,3 +21,23 @@ texture = ExtResource("1_1uyat")
 position = Vector2(643, 370.5)
 scale = Vector2(0.997665, 0.998649)
 texture = ExtResource("1_1uyat")
+
+[node name="Button" type="Button" parent="."]
+offset_left = 13.0
+offset_top = 8.0
+offset_right = 54.0
+offset_bottom = 54.0
+
+[node name="Control" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="PanelContainer" type="PanelContainer" parent="Control"]
+layout_mode = 0
+offset_left = 129.0
+offset_top = 127.0
+offset_right = 1153.0
+offset_bottom = 576.0
+theme_override_styles/panel = SubResource("StyleBoxFlat_ksk8o")
