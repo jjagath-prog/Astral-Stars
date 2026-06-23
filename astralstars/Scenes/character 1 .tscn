@@ -3,16 +3,16 @@
 [ext_resource type="Texture2D" uid="uid://c8yssgtnrhfa5" path="res://Assets/Character 1 png.png" id="1_ewsm5"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_2ik7x"]
-radius = 60.0
-height = 156.0
+radius = 39.0
+height = 124.0
 
 [node name="CharacterBody2D" type="CharacterBody2D"]
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
-position = Vector2(8.49999, 5.25)
-scale = Vector2(1.04268, 1.02542)
+position = Vector2(-9.99989, -12.2498)
+scale = Vector2(0.817072, 0.827682)
 texture = ExtResource("1_ewsm5")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(190, 9)
+position = Vector2(-11, -11)
 shape = SubResource("CapsuleShape2D_2ik7x")
