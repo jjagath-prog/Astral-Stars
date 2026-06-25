@@ -1,0 +1,12 @@
+[gd_scene format=3 uid="uid://bldgddcl6251t"]
+
+[ext_resource type="Texture2D" uid="uid://45bj4rdf7skk" path="res://Assets/image 28.png" id="1_tt7e2"]
+
+[node name="Node2D" type="Node2D" unique_id=1772128031]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=103155650]
+position = Vector2(-984.5, -957.5)
+scale = Vector2(0.111462094, 0.1358303)
+texture = ExtResource("1_tt7e2")
+
+[node name="Timer" type="Timer" parent="." unique_id=1066880168]

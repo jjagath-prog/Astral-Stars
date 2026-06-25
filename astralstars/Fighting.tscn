@@ -1,0 +1,28 @@
+[gd_scene format=3 uid="uid://civnaphq8sqik"]
+
+[ext_resource type="Texture2D" uid="uid://ccpda11128xcv" path="res://Assets/Screenshot 2026-06-26 063357.png" id="1_gd68c"]
+[ext_resource type="Texture2D" uid="uid://c8yssgtnrhfa5" path="res://Assets/Character 1 png.png" id="2_cqel5"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_qur2k"]
+radius = 48.0
+height = 124.0
+
+[node name="Node2D" type="Node2D" unique_id=1683350705]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1810471594]
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=1722826343]
+offset_right = 1156.0
+offset_bottom = 646.0
+texture = ExtResource("1_gd68c")
+
+[node name="CharacterBody2D" type="CharacterBody2D" parent="." unique_id=1464021556]
+
+[node name="Character1Png" type="Sprite2D" parent="CharacterBody2D" unique_id=904811543]
+position = Vector2(246, 513)
+scale = Vector2(0.9329268, 0.9491524)
+texture = ExtResource("2_cqel5")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D" unique_id=412595317]
+position = Vector2(244, 514)
+shape = SubResource("CapsuleShape2D_qur2k")
