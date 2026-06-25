@@ -1,0 +1,23 @@
+[gd_scene format=3 uid="uid://62jlnesjgo8k"]
+
+[ext_resource type="Texture2D" uid="uid://b8k2b2fnm755x" path="res://Assets/TV - 7.png" id="1_v2lfg"]
+
+[node name="CanvasLayer" type="CanvasLayer" unique_id=945860767]
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=534540347]
+anchors_preset = -1
+anchor_right = 5.8580003
+anchor_bottom = 6.321
+offset_right = -6708.4165
+offset_bottom = -4056.0083
+texture = ExtResource("1_v2lfg")
+
+[node name="ParallaxBackground" type="ParallaxBackground" parent="." unique_id=1042014642]
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="ParallaxBackground" unique_id=210695604]
+
+[node name="Control" type="Control" parent="ParallaxBackground" unique_id=1951366244]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0

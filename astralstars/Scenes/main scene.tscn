@@ -1,0 +1,59 @@
+[gd_scene format=3 uid="uid://bl2i5s1tjyyrj"]
+
+[ext_resource type="Texture2D" uid="uid://dlu241hruaeh5" path="res://Assets/Screenshot 2026-06-24 at 10.30.59 AM.png" id="1_kgj8u"]
+[ext_resource type="PackedScene" uid="uid://u121d3qxd1h0" path="res://Scenes/character 1 .tscn" id="2_5oqxy"]
+[ext_resource type="Script" uid="uid://cpeiwwnjc0a1l" path="res://Scripts/character_1_.gd" id="3_oxl4w"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ricoa"]
+size = Vector2(1298, 20)
+
+[node name="CanvasLayer" type="CanvasLayer" unique_id=1073309938]
+layer = -1
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=1513170174]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -6.0
+offset_top = -14.0
+offset_right = 127.0
+offset_bottom = 78.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_kgj8u")
+
+[node name="ParallaxBackground" type="ParallaxBackground" parent="." unique_id=2080474631]
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="ParallaxBackground" unique_id=1981207998]
+
+[node name="Control" type="Control" parent="." unique_id=631162396]
+layout_mode = 3
+anchor_left = -0.071
+anchor_top = -0.04
+anchor_right = -0.071
+anchor_bottom = -0.04
+offset_left = -232.208
+offset_top = -46.08
+offset_right = -192.208
+offset_bottom = -6.08
+
+[node name="CharacterBody2D" parent="." unique_id=962951804 instance=ExtResource("2_5oqxy")]
+position = Vector2(499, 530)
+script = ExtResource("3_oxl4w")
+
+[node name="Camera2D" type="Camera2D" parent="CharacterBody2D" unique_id=400961297]
+position = Vector2(-1, 28)
+zoom = Vector2(2, 2)
+position_smoothing_enabled = true
+
+[node name="StaticBody2D" type="StaticBody2D" parent="." unique_id=1327598438]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D" unique_id=942293693]
+position = Vector2(645, 618)
+shape = SubResource("RectangleShape2D_ricoa")
+
+[node name="ColorRect" type="ColorRect" parent="StaticBody2D" unique_id=862662790]
+offset_left = -4.0
+offset_top = 580.0
+offset_right = 1280.0
+offset_bottom = 646.0
