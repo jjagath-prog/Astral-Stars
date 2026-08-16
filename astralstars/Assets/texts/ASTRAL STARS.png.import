@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://45bj4rdf7skk"
-path="res://.godot/imported/image 28.png-052891ae05f6d1714d18d2768465c8c0.ctex"
+uid="uid://j6kys8exb3ms"
+path="res://.godot/imported/ASTRAL STARS.png-9f0e783a0d8d28785332e104a5623b9d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/image 28.png"
-dest_files=["res://.godot/imported/image 28.png-052891ae05f6d1714d18d2768465c8c0.ctex"]
+source_file="res://Assets/texts/ASTRAL STARS.png"
+dest_files=["res://.godot/imported/ASTRAL STARS.png-9f0e783a0d8d28785332e104a5623b9d.ctex"]
 
 [params]
 

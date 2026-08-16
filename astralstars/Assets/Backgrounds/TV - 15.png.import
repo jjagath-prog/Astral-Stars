@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b8k2b2fnm755x"
-path="res://.godot/imported/TV - 7.png-e9c9063c51711a69daaa281aef837b49.ctex"
+uid="uid://cpyje6vg3gsqx"
+path="res://.godot/imported/TV - 15.png-1c69c326b3c3ae06c1340314913d40df.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/TV - 7.png"
-dest_files=["res://.godot/imported/TV - 7.png-e9c9063c51711a69daaa281aef837b49.ctex"]
+source_file="res://Assets/Backgrounds/TV - 15.png"
+dest_files=["res://.godot/imported/TV - 15.png-1c69c326b3c3ae06c1340314913d40df.ctex"]
 
 [params]
 
