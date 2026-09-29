@@ -1,0 +1,54 @@
+[gd_scene format=3 uid="uid://bdrhn62ni07av"]
+
+[ext_resource type="Texture2D" uid="uid://taxh1se2bqf2" path="res://Assets/Backgrounds/Group 11.png" id="1_i7y2r"]
+[ext_resource type="Texture2D" uid="uid://j6kys8exb3ms" path="res://Assets/texts/ASTRAL STARS.png" id="2_0afw7"]
+[ext_resource type="Texture2D" uid="uid://b61vmu2rkh3op" path="res://Assets/Icons/Rectangle 13.png" id="3_ux2rm"]
+[ext_resource type="Texture2D" uid="uid://nmkkot21cahk" path="res://Assets/texts/TAP TO START.png" id="4_sgb2t"]
+
+[node name="Control" type="Control" unique_id=1784093949]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_right = 1.0
+offset_bottom = -1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=1935394869]
+layout_mode = 0
+offset_right = 1142.0
+offset_bottom = 648.0
+
+[node name="Group11" type="Sprite2D" parent="TextureRect" unique_id=557683572]
+position = Vector2(579.75, 320.5)
+scale = Vector2(0.8102473, 0.68269235)
+texture = ExtResource("1_i7y2r")
+
+[node name="Label" type="Label" parent="." unique_id=1407740009]
+layout_mode = 0
+offset_left = 344.0
+offset_top = 390.0
+offset_right = 854.0
+offset_bottom = 507.0
+
+[node name="AstralStars" type="Sprite2D" parent="Label" unique_id=259060286]
+position = Vector2(247.25, -74.5)
+scale = Vector2(0.799187, 0.82258064)
+texture = ExtResource("2_0afw7")
+
+[node name="Button" type="Button" parent="." unique_id=1102947504]
+layout_mode = 0
+offset_left = 415.0
+offset_top = 517.0
+offset_right = 756.0
+offset_bottom = 569.0
+
+[node name="Rectangle13" type="Sprite2D" parent="Button" unique_id=1395303079]
+position = Vector2(181.125, 24.125)
+scale = Vector2(0.9281003, 0.5953608)
+texture = ExtResource("3_ux2rm")
+
+[node name="TapToStart" type="Sprite2D" parent="Button" unique_id=142485867]
+position = Vector2(177, 23)
+texture = ExtResource("4_sgb2t")
